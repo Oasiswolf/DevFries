@@ -1,0 +1,47 @@
+/* Common Styles */
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Bodoni Moda', serif; */
+body {
+	margin: 0px;
+	font-family: "Bodoni Moda", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-align: center;
+	font-family: "Bodoni Moda", serif;
+}
+
+/* Footer Styles */
+
+.footer-wrap {
+	display: flex;
+	flex-direction: column;
+	background-color: #11122b;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	height: 400px;
+	margin-top: -4px;
+	color: #cbcbcb;
+}
+
+.footer-wrap > .content-wrap > .footer-logo img {
+	width: 180px;
+	height: 100%;
+	opacity: 0.5;
+}
+
+.footer-wrap > .content-wrap > .brand-links {
+	display: flex;
+	justify-content: space-around;
+}
+
+.footer-wrap > .content-wrap > .brand-links a {
+	color: #cbcbcb;
+	text-decoration: none;
+}
